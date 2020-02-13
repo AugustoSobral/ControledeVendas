@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vendas"
+            android:icon="@drawable/ic_menu_venda"
+            android:title="@string/menu_vendas" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_menu_clientes"
+            android:title="@string/menu_clientes" />
+        <item
+            android:id="@+id/nav_estoque"
+            android:icon="@drawable/ic_menu_estoque"
+            android:title="@string/menu_estoque" />
+        <item
+            android:id="@+id/nav_fornecedores"
+            android:icon="@drawable/ic_menu_fornecedores"
+            android:title="@string/menu_fornecedores" />
+        <item
+            android:id="@+id/nav_estatistica"
+            android:icon="@drawable/ic_menu_resumo"
+            android:title="@string/menu_estatistica" />
+    </group>
+
+
+    <item android:title="@string/menu_financeiro">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_conta_receber"
+                android:icon="@drawable/ic_menu_contas_receber"
+                android:title="@string/menu_contas_receber" />
+            <item
+                android:id="@+id/nav_contas_pagar"
+                android:icon="@drawable/ic_menu_contas_pagar"
+                android:title="@string/menu_contas_pagar" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/menu_recursos">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_menu_backup"
+                android:title="@string/menu_backup" />
+            </group>
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_menu_config"
+                android:title="@string/menu_config" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Controle de Vendas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sistema para Controle de Vendas</string>
+    <string name="nav_header_subtitle">Versão 1.0.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_vendas">Vendas</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_estoque">Produtos</string>
+    <string name="menu_estatistica">Estatísticas</string>
+    <string name="menu_fornecedores">Fornecedores</string>
+    <string name="menu_config">Configurações</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_recursos">Recursos</string>
+    <string name="menu_financeiro">Financeiro</string>
+    <string name="menu_contas_receber">Contas a Receber</string>
+    <string name="menu_contas_pagar">Contas a Pagar</string>
+
+    <string name="actionBarTitle_NovoCliente">Novo Cliente</string>
+    <string name="actionBarTitle_NovoFornecedor">Novo Fornecedor</string>
+    <string name="actionBarTitle_NovoProduto">Novo Produto</string>
+    <string name="actionBarTitle_DetalheCliente">Cliente</string>
+    <string name="actionBarTitle_DetalheFornecedor">Fornecedor</string>
+    <string name="actionBarTitle_DetalheProduto">Produto</string>
+    <string name="actionBarTitle_Categorias">Categorias</string>
+
+    <string name="User_Show_Details_Telefone">Telefone:</string>
+    <string name="User_Show_Details_Email">E-mail:</string>
+    <string name="User_Show_Details_Endereco">Endereço:</string>
+    <string name="User_Show_Details_CPF_CNPJ">CPF ou CNPJ:</string>
+    <string name="User_Show_Details_CEP">CEP:</string>
+    <string name="User_Show_Details_Aniversario">Aniversário:</string>
+    <string name="User_Show_Details_Celular">Celular:</string>
+    <string name="User_Show_Details_Observacao">Observação:</string>
+    <string name="User_Show_Details_Compras_Pendentes">Compras Pendentes</string>
+    <string name="User_Show_Details_Cidade">Cidade:</string>
+    <string name="User_Show_Details_UF">UF:</string>
+    <string name="User_Show_Details_ramo">Ramo/Atuação:</string>
+    <string name="User_Show_Details_prazo">Prazo médio de entrega:</string>
+    <string name="User_Show_Details_pagamento">Formas de pagamento:</string>
+
+    <string name="User_Show_Details_Nome_Produto">Nome do produto:</string>
+    <string name="User_Show_Details_Codigo">Código:</string>
+    <string name="User_Show_Details_Marca">Marca / Fabricante:</string>
+    <string name="User_Show_Details_Preco_Custo">Preço de Custo:</string>
+    <string name="User_Show_Details_Preco_Venda">Preço de Venda:</string>
+    <string name="User_Show_Details_Codigo_Barras">Código de Barras:</string>
+    <string name="User_Show_Details_Peso">Peso:</string>
+    <string name="User_Show_Details_Tamanho">Tamanho / Dimensões:</string>
+    <string name="User_Show_Details_Estoque">Estoque Atual:</string>
+    <string name="User_Show_Details_Vendas_Realizadas">Vendas Realizadas</string>
+
+</resources>

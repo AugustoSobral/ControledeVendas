@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    app:cardBackgroundColor="?android:colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/image_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_below="@id/text_view_list_name"
+                    android:layout_marginBottom="2dp"
+                    app:srcCompat="@drawable/ic_call_list_item_cliente" />
+
+                <ImageView
+                    android:id="@+id/image_wpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_below="@id/image_call"
+                    app:srcCompat="@drawable/ic_email_list_item_cliente" />
+
+                <TextView
+                    android:id="@+id/text_view_list_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/black"
+                    tools:text="Augusto César" />
+
+                <TextView
+                    android:id="@+id/text_view_list_telefone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_list_name"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toEndOf="@id/image_call"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    tools:text="(88) 2899-8888" />
+
+                <TextView
+                    android:id="@+id/textviewBarra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_list_name"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@id/text_view_list_telefone"
+                    android:text="/"
+                    android:textColor="@android:color/background_dark"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text_view_list_celular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_list_name"
+                    android:layout_toEndOf="@id/textviewBarra"
+                    android:maxLines="1"
+                    android:textColor="@android:color/background_dark"
+                    tools:text="(88) 2899-8888" />
+
+                <TextView
+                    android:id="@+id/text_view_list_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_list_telefone"
+                    android:layout_toEndOf="@id/image_wpp"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    tools:text="augustosobral@gmail.com" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:background="?android:colorBackground"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/image_whatsapp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:background="@drawable/bg_round"
+                    app:srcCompat="@drawable/ic_call_30x30_white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
